@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+  background-image: url(images/balloons-g45e077c33_640.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:auto;
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-box{
+    width: 300px;
+    height: 620px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 13px 4px 36px 15px rgba(189, 189, 189, 0.47);
+}
+.card-box-in{
+    width: 280px;
+    height: 520px;
+    background-color: rgb(245, 239, 239);
+    border-radius: 2px 2px 20px 20px;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+}
+.card-box-in .card-box-in-items-one{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(216, 181, 214);
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.card-box-in .card-box-in-items-one p{
+   position: absolute;
+   color: blueviolet;
+   font-size: 9px;
+   text-align: left;
+   top: 10%;
+   left: 5%;
+}
+.card-box-in .card-box-in-items-two{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(216, 181, 214);
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    margin-top: 30px;
+}
+.card-box-in .card-box-in-items-two p{
+    position: absolute;
+    color: blueviolet;
+    font-size: 9px;
+    text-align: left;
+    top: 10%;
+    left: 5%; 
+ }
+ .card-box-in .card-box-in-items-three{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    margin-top: 30px;
+    display: flex;
+    column-gap: 10px;  
+}
+.card-box-in-items-three img{
+    border-radius: 10px;  
+ }
+
+ .card-box-in .card-box-in-items-four{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    margin-top: 30px;
+}
+.card-box-in .card-box-in-items-four p{
+    position: absolute;
+    color: rgb(20, 20, 20);
+    font-size: 9px;
+    text-align: left;
+    top: 10%;
+    right: 5%;
+    margin-left: 10px; 
+ }
+ .card-box-in .card-box-in-items-five{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    margin-top: 30px;
+}
+.card-box-in .card-box-in-items-five p{
+    position: absolute;
+    color: rgb(20, 20, 20);
+    font-size: 9px;
+    text-align: left;
+    top: 10%;
+    right: 5%;
+    margin-left: 10px; 
+ }
+
+ .card-box-in .card-box-in-items-six{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(216, 181, 214);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    margin-top: 30px;
+}
+.card-box-in .card-box-in-items-six p{
+    position: absolute;
+    color: blueviolet;
+    font-size: 9px;
+    text-align: left;
+    top: 15%;
+    left: 5%; 
+ }
+
+ .card-box-in .card-box-in-items-seven{
+    width: 180px;
+    height: 35px;
+    background: linear-gradient(to right, #e076b8,  #a608ce);
+    border-radius: 10px;
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    margin-top: 30px;
+}
+.card-box-in .card-box-in-items-eight{
+    width: 180px;
+    height: 35px;
+    background: linear-gradient(to right, #e076b8,  #a608ce);
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    margin-top: 30px;
+}
+.card-box-in .card-box-in-items-nine{
+    width: 260px;
+    height: 35px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    margin-top: 30px;
+}
+.card-box-in .card-box-in-items-nine p{
+    position: absolute;
+    color: rgb(131, 129, 129);
+    opacity: 54%;
+    font-size: 9px;
+    text-align: left;
+    bottom: 25%;
+    left: 8%; 
+ }
+ .card-box-in .card-box-in-items-nine ion-icon{
+    position: absolute;  
+    bottom: 25%;
+    right: 8%; 
+ }
+
+.card-box-top{
+    width: 280px;
+    height: 80px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    border-radius: 20px 20px 10px 10px;
+    position: absolute;
+    left: 3%;
+    top: 2%;
+    box-shadow: 2px 6px 12px 5px rgba(0,0,0,0.23); 
+}
+.card-box-top ion-icon{
+    position: absolute;
+    right: 3%;
+    top: 50%;   
+}
+
+.card-box-top img{
+    width: 30px;
+    border: 1px solid white;
+    border-radius:50px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+.card-box-top span{
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.card-box-top p{
+    position: absolute;
+    top: 63%;
+    left: 20%;
+    color: rgb(58, 58, 58);
+    font-size: 8px;
+}
+.card-box-top-white{
+    width: 180px;
+    height: 25px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    left: 17%;
+    top:0;
+}
+.right{
+    width: 30%;
+    margin-right: 100px;
+    margin-top: 10%;
+}
+.right-text{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.right-text-one{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+@media (max-width:680px){
+    body{
+        background-image: url(images/balloons-g45e077c33_640.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+
+    .container{
+        background-color: rgba(255, 255, 255, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:auto;
+        margin-top: 10%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .right{
+        width: 100%;
+        margin-top: 10%;
+        
+    }
+    .right-text{
+        margin-bottom: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .right-text-one{
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        margin-left: 15%;
+        text-align: center;
+    }
+}
